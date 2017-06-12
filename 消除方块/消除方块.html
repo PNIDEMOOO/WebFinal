@@ -1,0 +1,66 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>消灭方块</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="消除方块.css">
+</head>
+<body>
+<div class="nav">
+    <a href="" class="navLink brand">PNIDEMOOO</a>
+    <a href="" class="navLink">Home</a>
+    <a href="" target="_blank" class="navLink">List</a>
+    <a href="" target="_blank" class="navLink">About</a>
+</div>
+<div class="mainContent">
+    <div id="tab1">
+        <p>请选择颜色</p>
+        <div class="inl" id="00"><input class='colorpicker' id="0"/></div>
+        <div class="inl" id="01"><input class='colorpicker' id="1"/></div>
+        <div class="inl" id="02"><input class='colorpicker' id="2"/></div>
+        <div class="inl" id="03"><input class='colorpicker' id="3"/></div>
+        <div class="inl" id="04"><input class='colorpicker' id="4"/></div>
+        <button onclick="selectColor()">确定</button>
+    </div>
+    <div id="tab2">
+        <table id="top">
+            <tr>
+                <td>历史最高分</td>
+                <td id="bestScore"></td>
+            </tr>
+            <tr>
+                <td>当前关得分</td>
+                <td id="currentLevelScore"></td>
+            </tr>
+            <tr>
+                <td>关卡</td>
+                <td id="currentLevel"></td>
+            </tr>
+            <tr>
+                <td>本关目标得分</td>
+                <td id="targetScore"></td>
+            </tr>
+            <tr>
+                <td>总分</td>
+                <td id="totalScore"></td>
+                <td colspan=1></td>
+                <td colspan=4 id="showMessage"></td>
+            </tr>
+        </table>
+        <div id="content">
+            <table id="contentTab">
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="消除方块.js" type="application/javascript"></script>

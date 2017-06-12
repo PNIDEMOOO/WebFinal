@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="2048.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="nav">
+    <a href="" class="navLink brand">PNIDEMOOO</a>
+    <a href="" class="navLink">Home</a>
+    <a href="" target="_blank" class="navLink">List</a>
+    <a href="" target="_blank" class="navLink">About</a>
+</div>
+<div class="mainContent">
+    <p>Score:<span id="score"></span></p>
+    <div id="gridPanel">
+        <!--背景单元格-->
+        <div id="g00" class="grid"></div>
+        <div id="g01" class="grid"></div>
+        <div id="g02" class="grid"></div>
+        <div id="g03" class="grid"></div>
+
+        <div id="g10" class="grid"></div>
+        <div id="g11" class="grid"></div>
+        <div id="g12" class="grid"></div>
+        <div id="g13" class="grid"></div>
+
+        <div id="g20" class="grid"></div>
+        <div id="g21" class="grid"></div>
+        <div id="g22" class="grid"></div>
+        <div id="g23" class="grid"></div>
+
+        <div id="g30" class="grid"></div>
+        <div id="g31" class="grid"></div>
+        <div id="g32" class="grid"></div>
+        <div id="g33" class="grid"></div>
+
+        <!--前景单元格-->
+        <div id="c00" class="cell n2">2</div>
+        <div id="c01" class="cell n4">4</div>
+        <div id="c02" class="cell n8">8</div>
+        <div id="c03" class="cell n16">16</div>
+
+        <div id="c10" class="cell n32">32</div>
+        <div id="c11" class="cell n64">64</div>
+        <div id="c12" class="cell n128">128</div>
+        <div id="c13" class="cell n256">256</div>
+
+        <div id="c20" class="cell n512">512</div>
+        <div id="c21" class="cell n1024">1024</div>
+        <div id="c22" class="cell n2048">2048</div>
+        <div id="c23" class="cell n4096">4096</div>
+
+        <div id="c30" class="cell n8192">8192</div>
+        <div id="c31" class="cell"></div>
+        <div id="c32" class="cell"></div>
+        <div id="c33" class="cell"></div>
+    </div>
+
+    <!--Game Over!界面-->
+    <div id="gameOver">
+        <div><!--灰色半透明北景--></div>
+        <!--前景小窗-->
+        <p>Game Over!<br/>
+            Score:<span id="finalScore"></span><br/>
+            <a class="button" id="restart" style="font-size:30px;" onclick="game.start()">爱心 Try again!</a>
+        </p>
+    </div>
+</div>
+
+<script src="2048.js"></script>
+</body>
+
+</html>
