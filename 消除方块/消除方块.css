@@ -7,6 +7,12 @@ body {
     overflow-x: hidden;
 }
 
+p {
+    color: rgb(111, 84, 153);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #content {
     width: 580px;
     height: 620px;
@@ -14,7 +20,8 @@ body {
     margin: 0px auto;
     border: none;
     position: relative;
-    background: navajowhite;
+    /*background: navajowhite;*/
+    background-color: rgba(111, 84, 153, 0.8);
     font-family: brandon-grotesque, sans-serif;
 }
 
@@ -31,8 +38,7 @@ body {
     text-align: left;
     line-height: 20px;
     font-size: 24px;
-    color: #E9F8F4;
-    color: black;
+    color: rgba(111, 84, 153, 1);
     font-weight: 800;
     font-family: brandon-grotesque, sans-serif;
 
@@ -60,6 +66,33 @@ body {
     font-size: 22px !important;
 }
 
-.inl{
+.sp-replacer {
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.inl {
     display: inline-block;
+}
+
+#tab1, #tab2 {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid rgb(111, 84, 153);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(111, 84, 153);
+    color: white;
+    opacity: 0.75;
+    transition: .3s;
+}
+
+.btn:hover {
+    opacity: 1;
 }

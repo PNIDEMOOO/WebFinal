@@ -8,25 +8,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+    <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>-->
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="消除方块.css">
 </head>
 <body>
 <div class="nav">
     <a href="" class="navLink brand">PNIDEMOOO</a>
-    <a href="" class="navLink">Home</a>
+    <a href="../index.html" class="navLink">Home</a>
     <a href="" target="_blank" class="navLink">List</a>
     <a href="" target="_blank" class="navLink">About</a>
 </div>
 <div class="mainContent">
     <div id="tab1">
-        <p>请选择颜色</p>
+        <p>自定义颜色，并点击确定即可开始游戏</p>
         <div class="inl" id="00"><input class='colorpicker' id="0"/></div>
         <div class="inl" id="01"><input class='colorpicker' id="1"/></div>
         <div class="inl" id="02"><input class='colorpicker' id="2"/></div>
         <div class="inl" id="03"><input class='colorpicker' id="3"/></div>
         <div class="inl" id="04"><input class='colorpicker' id="4"/></div>
-        <button onclick="selectColor()">确定</button>
+        <button class="btn" onclick="selectColor()">确定</button>
     </div>
     <div id="tab2">
         <table id="top">
