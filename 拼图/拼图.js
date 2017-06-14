@@ -66,7 +66,7 @@
         };
 
         //游戏关卡的图片和游戏每一个关卡要切成的图片快个数
-        var levels = ["images/3.jpg", "images/古琴.jpg", "images/1.jpg", "images/view.jpg"];
+        var levels = ["images/荷花.jpg", "images/3.jpg", "images/1.jpg", "images/1.jpg"];
         var numbers = [3, 4, 5, 6];
 
         /**
