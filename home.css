@@ -5,6 +5,7 @@ body {
 .img-responsive {
     height: 200px;
     background-color: transparent;
+    margin: auto;
 }
 
 p {
@@ -540,6 +541,6 @@ footer .footer-below {
     display: none;
 }
 
-.intro{
+.intro {
     font-size: 20px;
 }
