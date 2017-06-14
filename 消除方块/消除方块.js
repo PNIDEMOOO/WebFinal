@@ -2,7 +2,7 @@
  * Created by ZHY on 2017/5/23.
  */
 $("#tab2").hide();
-var colorArray = new Array('blue', 'white', '#a7c158', 'black', '#d83333'); //颜色数组
+var colorArray = new Array('#5bc0de', 'white', '#a7c158', 'black', '#d83333'); //颜色数组
 var x = 7; //x轴行数
 var y = 10; //y轴行数
 var totalArray = new Array(); //方块总数
@@ -24,19 +24,19 @@ if (bestScore != null && bestScore != "") {
 
 
 $("#0").spectrum({
-    color: "blue"
+    color: colorArray[0]
 });
 $("#1").spectrum({
-    color: "white"
+    color: colorArray[1]
 });
 $("#2").spectrum({
-    color: "#a7c158"
+    color: colorArray[2]
 });
 $("#3").spectrum({
-    color: "black"
+    color: colorArray[3]
 });
 $("#4").spectrum({
-    color: "#d83333"
+    color: colorArray[4]
 });
 
 

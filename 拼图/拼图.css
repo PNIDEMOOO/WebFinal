@@ -4,7 +4,7 @@ body {
 
 #content {
     position: relative;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 canvas {
@@ -27,6 +27,7 @@ canvas {
     *display: inline;
     *zoom: 1;
     text-align: center;
+    transition: .3s;
 }
 
 .uploadFile input {
@@ -47,5 +48,5 @@ canvas {
 }
 
 .progress {
-    margin-top: 30px;
+    margin-top: 20px;
 }
