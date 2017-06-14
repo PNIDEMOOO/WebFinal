@@ -1,3 +1,17 @@
+body {
+    margin: 0;
+}
+
+#content {
+    position: relative;
+    margin: 40px auto;
+}
+
+canvas {
+    border: 1px solid #f0f0f0;
+    /*box-shadow: 2px 2px 2px #eee;*/
+}
+
 .uploadFile {
     padding: 4px 10px;
     line-height: 40px;
@@ -11,7 +25,8 @@
     overflow: hidden;
     display: inline-block;
     *display: inline;
-    *zoom: 1
+    *zoom: 1;
+    text-align: center;
 }
 
 .uploadFile input {
@@ -29,4 +44,8 @@
     background: #eee;
     border-color: #ccc;
     text-decoration: none
+}
+
+.progress {
+    margin-top: 30px;
 }

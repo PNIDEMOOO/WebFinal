@@ -4,27 +4,9 @@
     <meta charset="UTF-8">
     <title>拼图</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!--<link href="../bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../style.css"/>
     <link rel="stylesheet" href="拼图.css">
-    <script src="zepto.js"></script>
-    <script src="http://cdn.bootcss.com/underscore.js/1.8.3/underscore.js"></script>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        #content {
-            position: relative;
-            margin: 40px auto;
-        }
-
-        canvas {
-            border: 1px solid #f0f0f0;
-            box-shadow: 2px 2px 2px #eee;
-        }
-    </style>
 </head>
 <body>
 <div class="nav">
@@ -43,17 +25,18 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div id="content" class="clearfix"></div>
-        </div>
-        <div class="row">
+        <div class="row" style="text-align: center">
             <a href="javascript:;" class="uploadFile">
                 <input type="file" class="selectFile" name="file" id="file">自定义图片
             </a>
         </div>
-
+        <div class="row">
+            <div id="content" class="clearfix"></div>
+        </div>
     </div>
 </div>
+<script src="zepto.js"></script>
+<script src="http://cdn.bootcss.com/underscore.js/1.8.3/underscore.js"></script>
 <script src="拼图.js"></script>
 </body>
 </html>

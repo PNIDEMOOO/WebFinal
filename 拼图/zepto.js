@@ -1,7 +1,6 @@
 /**
  * Created by ZHY on 2017/5/15.
  */
-/* Zepto v1.1.4 - zepto event ajax form ie - zeptojs.com/license */
 
 var Zepto = (function() {
     var undefined, key, $, classList, emptyArray = [], slice = emptyArray.slice, filter = emptyArray.filter,
